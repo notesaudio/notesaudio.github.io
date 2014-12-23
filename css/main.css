@@ -10,6 +10,7 @@ input {
     border-radius: 0px;
     padding: 0px;
     margin: 0px;
+    border: none;
 }
 .ceiling {
     background-color: #161616;
