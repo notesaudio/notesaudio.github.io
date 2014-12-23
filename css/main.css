@@ -1,4 +1,5 @@
 body {
+    overflow-x: hidden;
     background: black url(../img/bg.gif) repeat-y;
     background-size: 100% auto;
     background-position: 50%;
@@ -84,12 +85,12 @@ a:hover {
 
 .main-banner {
     position: relative;
-    height: 412px;
     background-color: #201501;
 }
 
 .main-banner>div {
     width: 960px;
+    padding: 0px;
 }
 
 .main-banner img {
@@ -99,6 +100,16 @@ a:hover {
 
 .main-banner img.right {
     float: right;
+}
+
+@media (min-width: 768px) and (max-width: 970px) {
+    .main-banner>div {
+        width: 100%;
+    }
+    .main-banner img {
+        width: 100% !important;
+        height: auto !important;
+    }
 }
 
 .feature {
