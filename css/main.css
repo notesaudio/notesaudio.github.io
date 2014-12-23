@@ -194,7 +194,7 @@ a:hover {
 }
 .newsletter a {
     position: relative;
-    top: 1px;
+    /*top: 1px;*/
     left: -2px;
     background-color: #464646;
     padding: 4px 10px !important;
