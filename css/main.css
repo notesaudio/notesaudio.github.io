@@ -3,7 +3,7 @@ body {
     background-size: 100% auto;
     background-position: 50%;
     color: #ccc;
-    font-family: "FuturaStd-Medium","Helvetica Neue", sans-serif;
+    font-family: "Conv_FuturaStd-Medium","Helvetica Neue", sans-serif;
     font-size: 12px;
 }
 .ceiling {
@@ -126,7 +126,7 @@ a:hover {
     padding: 7px;
 }
 .promotion h2{
-    font-family: "FuturaStd-Condensed","Helvetica Neue", sans-serif;
+    font-family: "Conv_FuturaStd-Condensed","Helvetica Neue", sans-serif;
     color: #222;
     font-size: 34px;
     margin: 0px;
