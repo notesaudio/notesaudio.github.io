@@ -4,7 +4,9 @@ body {
     background-size: 100% auto;
     background-position: 50%;
     color: #ccc;
-    font-family: "Conv_FuturaStd-Medium","Helvetica Neue", sans-serif;
+    /*font-family: "Conv_FuturaStd-Medium","Helvetica Neue", sans-serif;*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     font-size: 12px;
 }
 input {
@@ -144,7 +146,7 @@ a:hover {
     padding: 7px;
 }
 .promotion h2{
-    font-family: "Conv_FuturaStd-Condensed","Helvetica Neue", sans-serif;
+    /*font-family: "Conv_FuturaStd-Condensed","Helvetica Neue", sans-serif;*/
     color: #222;
     font-size: 34px;
     margin: 0px;
