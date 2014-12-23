@@ -6,6 +6,11 @@ body {
     font-family: "Conv_FuturaStd-Medium","Helvetica Neue", sans-serif;
     font-size: 12px;
 }
+input {
+    border-radius: 0px;
+    padding: 0px;
+    margin: 0px;
+}
 .ceiling {
     background-color: #161616;
     border-bottom: #FAFAFA solid 1px;
