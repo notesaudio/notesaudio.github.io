@@ -85,6 +85,7 @@ a:hover {
 
 .main-banner {
     position: relative;
+    min-height: 312px;
     background-color: #201501;
 }
 
