@@ -1,0 +1,181 @@
+body {
+    background: black url(../img/bg.gif) repeat-y;
+    background-size: 100% auto;
+    background-position: 50%;
+    color: #ccc;
+    font-family: "FuturaStd-Medium","Helvetica Neue", sans-serif;
+    font-size: 12px;
+}
+.ceiling {
+    background-color: #161616;
+    border-bottom: #FAFAFA solid 1px;
+}
+.ceiling .wrapper {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}
+.ceiling form {
+    display: inline-block;
+}
+.ceiling input {
+    background: #1E1E1E;
+    font-size: 12px;
+    border: none;
+    width: 82px;
+    height: 16px;
+    color: #9E9E9E;
+    padding-right: 0px;
+}
+.ceiling a {
+    background-color: #1E1E1E;
+    font-size: 12px;
+    border: none;
+    width: 16px;
+    height: 16px;
+    color: #9E9E9E;
+}
+nav {
+    font-size: 16px;    
+    border-bottom: #BCE40F 2px solid;
+}
+nav img {
+    width: 72px;
+    height: auto;
+    padding: 20px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav ul{
+    margin-bottom: 10px;
+}
+
+.nav li{
+    font-size: 12px;
+    margin: 0px 0px;
+    padding: 0px 0px !important;
+}
+
+.nav li::before, .nav li:last-child::after {
+    padding: 0px 20px;
+    color: #FFF;
+    content: "|";
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: #BCE232;
+}
+.container{
+    width: 960px;
+    width: 720px;
+}
+
+.main-banner {
+    position: relative;
+    height: 412px;
+    background-color: #201501;
+}
+
+.main-banner>div {
+    width: 960px;
+}
+
+.main-banner img {
+    height: 412px !important;
+    width: auto;
+}
+
+.main-banner img.right {
+    float: right;
+}
+
+.feature {
+    background: black url(../img/bg-feature.gif) repeat-y;
+    background-size: 960px auto;
+    background-position: 50%;
+}
+
+.small-item {
+    padding: 0px 20px;  
+    margin: 15px 0px;
+}
+.small-item img {
+    height: 200px;
+    width: auto;
+}
+
+
+.promotion a, .feature a {
+    color: #BCE232;
+    text-decoration: underline;
+}
+
+.promotion {
+    background: black url(../img/bg-promotion.gif) repeat;
+    background-size: 960px auto;
+    background-position: 50%;
+}
+.promotion .header {
+    background-color: rgba(188,226,50,0.6);
+    padding: 7px;
+}
+.promotion h2{
+    font-family: "FuturaStd-Condensed","Helvetica Neue", sans-serif;
+    color: #222;
+    font-size: 34px;
+    margin: 0px;
+}
+.footer {
+    border-top: solid  #BCE232;
+    padding-bottom: 50px;
+}
+.footer .logo {
+    width: 104px;
+    padding: 20px 0px;
+}
+.footer .logo img{
+    min-height: 100px;
+}
+.social h3 {
+    font-weight: 200;
+    color: #FFF;
+}
+.social img {
+    width: 30px;
+    height: 30px;
+}
+.social img svg {
+    fill: black;
+}
+.newsletter .description {
+    font-size: 18px;
+    color: #C3EF2B;
+    margin-bottom: 30px;
+    /*font-weight: 200;*/
+}
+.newsletter h3 {
+    font-size: 35px;
+    font-weight: 200;
+    margin-bottom: 0px;
+    color: #FFF;
+}
+.newsletter form {
+    position: relative;
+}
+.newsletter a,.newsletter input  {
+    padding: 0px !important;
+    height: 20px;
+}
+.newsletter a {
+    position: relative;
+    top: 1px;
+    left: -2px;
+    background-color: #464646;
+    padding: 4px 10px !important;
+}
