@@ -2,7 +2,7 @@ body {
     overflow-x: hidden;
     background: black url(../img/bg.gif) repeat-y;
     background-size: 100% auto;
-    background-position: 50%;
+    background-position: 50% -300px;
     color: #ccc;
     /*font-family: "Conv_FuturaStd-Medium","Helvetica Neue", sans-serif;*/
     font-family: 'Raleway', sans-serif;
