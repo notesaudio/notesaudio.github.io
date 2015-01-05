@@ -19,16 +19,19 @@
 }
 
 .product-detail .row {
-	padding: 50px 0px;
 	/*height: 200px;*/
 	/* Rectangle 4: */
-	background-image: -o-radial-gradient(50% 50%, #C5C5C5 50%, #C1C1C1 78%, #A8A8A8 89%);
-	background-image: -moz-radial-gradient(50% 50%, #C5C5C5 50%, #C1C1C1 78%, #A8A8A8 89%);
-	background-image: -ms-radial-gradient(50% 50%, #C5C5C5 50%, #C1C1C1 78%, #A8A8A8 89%);
-	background-image: radial-gradient(50% 50%, #C5C5C5 50%, #C1C1C1 78%, #A8A8A8 89%);	color: black;
+	background-color:  #A8A8A8;
+	color: black;
 	border-top: 5px solid #2C2C2C;
 }
-
+.product-detail .container {
+	background-image: -o-radial-gradient(50% 50%, #C5C5C5 50%, #A8A8A8 89%);
+	background-image: -moz-radial-gradient(50% 50%, #C5C5C5 50%, #A8A8A8 89%);
+	background-image: -ms-radial-gradient(50% 50%, #C5C5C5 50%, #A8A8A8 89%);
+	background-image: radial-gradient(50% 50%, #C5C5C5 50%, #A8A8A8 89%);	
+	padding: 50px 0px;
+}
 .product-detail img {
 	height: 125px;
 	width: auto;
