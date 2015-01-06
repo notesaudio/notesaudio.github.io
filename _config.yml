@@ -1,12 +1,12 @@
 # Site settings
 title: Notes Audio
 email: support@notesaudio.com
-description: Thương hiệu thiết bị âm thanh 'thuần Việt' Notes Audio với sản phẩm thương mại hóa đầu tiên - NT.100
+description: Thương hiệu thiết bị âm thanh 'thuần Việt' Notes Audio với sản phẩm thương mại hóa đầu tiên mang tên NT.100
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.notesaudio.com" # the base hostname & protocol for your site
 facebook_username: notesaudio
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: notesaudio
+github_username:  notesaudio
 
 # Build settings
 markdown: kramdown
