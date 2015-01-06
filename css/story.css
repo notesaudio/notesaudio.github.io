@@ -32,3 +32,6 @@
 	color: black;
 	border-top: 5px solid #2C2C2C;
 }
+.story .row p {
+	text-transform: uppercase;
+}
