@@ -1,6 +1,6 @@
 body {
     overflow-x: hidden;
-    background: black url(../img/bg.gif) repeat-y;
+    background: black url(../img/bg.png) repeat-y;
     background-size: 100% auto;
     background-position: 50% -300px;
     color: #ccc;
@@ -116,7 +116,7 @@ a:hover {
 }
 
 .feature {
-    background: black url(../img/bg-feature.gif) repeat-y;
+    background: black url(../img/bg-feature.png) repeat-y;
     background-size: 960px auto;
     background-position: 50%;
 }
@@ -137,7 +137,7 @@ a:hover {
 }
 
 .promotion {
-    background: black url(../img/bg-promotion.gif) repeat;
+    background: black url(../img/bg-promotion.png) repeat;
     background-size: 960px auto;
     background-position: 50%;
 }
