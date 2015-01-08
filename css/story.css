@@ -8,9 +8,13 @@
 }
 .story .container > div .center {
 	padding: 0px 20px;
-	position: absolute;               /* 2 */
-	top: 50%;                         /* 3 */
-	transform: translate(0, -50%)   /* 4 */
+	position: absolute;
+	top: 50%;
+	-moz-transform: translate(0, -50%)
+	-webkit-transform: translate(0, -50%)
+	-o-transform: translate(0, -50%)
+	-ms-transform: translate(0, -50%)
+	transform: translate(0, -50%)
 }
 .story .row:nth-child(even) .container > div .center {
 	right: 0px;
